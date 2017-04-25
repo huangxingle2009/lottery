@@ -1,0 +1,19 @@
+{
+  "name": "jszm",
+  "description": "jszm",
+  "keywords": ["jszm"],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files" : ["function.php","config.php"],
+    "classmap" : [
+      "lib/"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable"
+}
